@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background: rgb(251, 244, 232);
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.main{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: rgb(251, 244, 232);
+}
+.top-div{
+    position: absolute;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background: black;
+    color: white;
+    z-index: 4;
+    overflow: hidden;
+}
+.top-div span{
+    margin-left: 290px;
+    margin-top: 182px;
+    font-size: 150px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
+}
+.home{
+    position: relative;
+    display: flex;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    
+}
+.titel{
+    position: absolute;
+    font-size: 150px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
+    z-index: 1;
+}
+.header{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+    z-index: 100;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ri-menu-2-line{
+    font-size: 30px;
+}
+.header-left span{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+
+}
+.header-mid span{
+ display: flex;
+  font-size: 22px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.header-right{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.header-right span{
+    font-size: 13px;
+    font-family:sans-serif;
+    font-weight: 500;
+}
+.header-right span:nth-of-type(3){
+  display: flex;
+align-items: center;
+    justify-content: center;
+  height: 20px;
+  width: 30px;
+  border: 1px solid black;
+  border-radius: 50%;
+
+}
+.fiter{
+    position: fixed;
+    top: 11%;
+    left: 35%;
+    display: flex;
+    height: 50px;
+    width: 300px;
+    background: black;
+    color: white;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0px 15px;
+    z-index: 100;
+
+}
+.fiter span{
+    font-size: 16px;
+    font-family: "Prompt", sans-serif;
+    letter-spacing: 1px;
+
+}
+.fiter span:nth-of-type(2){
+    font-size: 20px;
+}
+.image1{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    left: 5%;
+    top: 30%;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 2;
+  
+}
+.image1 img{
+   
+    object-fit: cover;
+    width: 100%;
+}
+.image2{
+    position: absolute;
+    height: 350px;
+    width: 200px;
+    top: 43%;
+    opacity: 0;
+    overflow: hidden;
+    z-index: 2;
+}
+.image2 img{
+    object-fit: cover;
+    width: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+.text span:nth-of-type(1){
+    font-size: 12px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 500;
+
+}
+.text span:nth-of-type(2){
+    font-size: 8px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+.colors{
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    
+
+}
+.colors span:nth-of-type(1){
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: black;
+}
+.colors span:nth-of-type(2){
+    position: absolute;
+    left: 5px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgb(100, 88, 88);
+}
+
+.colors span:nth-of-type(3){
+    position: absolute;
+    left: 10px;
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: rgb(139, 123, 123);
+}
+.colors span:nth-of-type(4){
+     font-size: 6px;
+     font-weight: 200;
+     font-family: "Krona One", sans-serif;
+     margin-left: 20px;
+}
+.image3{
+    position: absolute;
+    height: 0px;
+    width: 250px;
+    right: 5%;
+    top: 30%;
+    overflow: hidden;
+    opacity: 0;
+    z-index: 2;
+}
+
+.image3 img{
+    object-fit: cover;
+    width: 100%;
+}
+.page2{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: rgb(251, 244, 232);
+    
+}
+.p2-image1{
+    position: absolute;
+    height: 270px;
+    width: 180px;
+    top: 10%;
+    left: 5%;
+    z-index: 2;
+}
+
+.p2-image2{
+    position: absolute;
+    height: 380px;
+    width: 280px;
+    left: 35%;
+    top: 50%;
+    z-index: 2;
+}
+.p2-image3 {
+    position: absolute;
+    height: 270px;
+    width: 180px;
+    right: 5%;
+    top: 20%;
+    z-index: 2;
+}
+
+.p2-image4{
+    position: absolute;
+    display: flex;
+    height: 350px;
+    width: 200px;
+    object-fit: cover;
+    bottom: -20%;
+    left: 5%;
+    overflow: hidden;
+}
+.p2-image4 img{
+    width: 100%;
+}
+.p2-image5{
+    position: absolute;
+    display: flex;
+    height: 350px;
+    width: 200px;
+    object-fit: cover;
+    bottom: -20%;
+    right: 5%;
+    overflow: hidden;
+}
+.p2-image5 img{
+    
+    width: 100%;
+}
+
+.page3{
+    position: relative;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    gap: 10px;
+    white-space: nowrap;
+    align-items: end;
+    justify-items: center;
+    overflow-x: auto;
+
+}
+.page3::-webkit-scrollbar{
+    display: none;
+}
+.page3 img{
+    display: inline-block;
+    height: 300px;
+    width: 250px;
+    
+    animation: scroll;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    z-index: 10;
+    
+ 
+    
+}
+
+@keyframes scroll {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(calc(-110% - 10px));
+    }
+}
+
+.footer{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    border-top: 2px solid black;
+    gap: 20px;
+
+}
+.footer span{
+    font-size: 10px;
+    font-family: "Krona One", sans-serif;
+    font-weight: 100;
+    
+
+}
+.footer span:nth-of-type(1){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 50%;
+
+}
+
+

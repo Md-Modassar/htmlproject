@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: grey;
+
+}
+.main{
+    position: relative;
+    height: 80%;
+    width: 70%;
+    background: #fff;
+    overflow: hidden;
+
+}
+.left{
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    margin-top: 50%;
+}
+.one span{
+    position: absolute;
+    font-size: 200px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    left: 10%;
+    top: 2%;
+    color: rgba(128, 128, 128, 0.5);
+}
+.one:nth-of-type(1){
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: yellow;
+}
+.one:nth-of-type(2){
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #FF6F00;
+}
+.one:nth-of-type(3){
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgb(59, 245, 59);
+}
+.top-div{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    z-index: 2;
+    justify-content: center;
+    margin-left: 10%;
+    gap: 4%;
+}
+.top1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    width: 250px;
+    align-items: start;
+    justify-content: start;
+    overflow: hidden;
+ 
+
+}
+.top1 span{
+    position: absolute;
+    font-size: 55px;
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* .top1 span:nth-of-type(1){
+    position: absolute;
+    font-size: 50px;
+    margin-top: 50px;
+    
+
+}
+.top1 span:nth-of-type(2){
+    position: absolute;
+    font-size: 50px;
+    margin-top: 50px;
+    
+
+} */
+
+.top2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    width: 350px;
+   
+    overflow: hidden;
+
+    
+}
+.top2 span{
+    position: absolute;
+    display: flex;
+    font-size:18px ;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+    margin-top: 30px;
+ 
+
+}
+
+.top3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    width: 150px;
+  
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.top3 h6{
+    position: absolute;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    left: 35%;
+    z-index: 2;
+    word-spacing:-5px;
+    
+}
+.top3 span{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    left: 5%;
+    margin-top: 100px;
+}
+.top3 span:nth-of-type(1){
+    background: rgb(249, 170, 12);
+}
+.top3 span:nth-of-type(2){
+    background: rgb(237, 31, 28);
+}
+.top3 span:nth-of-type(3){
+    background: rgb(47, 146, 16);
+}
+.images{
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    
+    left: 50%;
+    top: 20%;
+    overflow: hidden;
+}
+.images img{
+    
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    bottom: 100%;
+}
+.header{
+    position: fixed;
+    display:flex;
+    z-index: 10;
+    height: 10%;
+    width: 70%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+
+}
+.header span{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+.ri-menu-5-line{
+    font-size: 30px;
+}
