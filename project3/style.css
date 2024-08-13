@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%; 
+    background: whitesmoke;  
+}
+.main{
+    display: flex;
+    height: 80%;
+    width: 70%;
+    background: yellow;
+    position: relative;
+}
+.image-container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: white;
+    position: absolute;
+}
+.image-container span{
+    width: 0%;
+    height: 100%;
+    background: url('https://wallpaperaccess.com/full/121194.jpg');
+   background-size: cover;
+   align-items: center;
+   transition: 0.9s ease-in-out;
+   position: absolute;
+}
+.image-container span:nth-of-type(1){
+    background-position: 0%;
+    transition-delay:0.1s;
+    left: 0%;
+    
+}
+.image-container span:nth-of-type(2){
+    background-position: 18.2%;
+    transition-delay:0.1s;
+    left: 20%;
+}
+.image-container span:nth-of-type(3){
+    background-position: 36.2%;
+    transition-delay:0.1s;
+    left: 40%;
+}
+.image-container span:nth-of-type(4){
+    background-position: 54%;
+    transition-delay:0.1s;
+    left: 60%;
+}
+.image-container span:nth-of-type(5){
+    background-position: 72%;
+    transition-delay:0.1s;
+    left: 80%;
+}
+
+
+
+.image-container1 span{
+    width: 0%;
+    height: 100%;
+    background: url('https://www.fbcoverlover.com/maker/covers-images/download/Nature-2Beach_And_Sea_View.jpg');
+   background-size: cover;
+   align-items: center;
+   transition: 0.9s ease-in-out;
+   position: absolute;
+}
+.image-container1 span:nth-of-type(1){
+    background-position: 0%;
+    transition-delay:0.1s;
+    left: 0%;
+    
+}
+.image-container1 span:nth-of-type(2){
+    background-position: 15%;
+    transition-delay:0.1s;
+    left: 20%;
+}
+.image-container1 span:nth-of-type(3){
+    background-position: 30%;
+    transition-delay:0.1s;
+    left: 40%;
+}
+.image-container1 span:nth-of-type(4){
+    background-position: 45%;
+    transition-delay:0.1s;
+    left: 60%;
+}
+.image-container1 span:nth-of-type(5){
+    background-position: 60%;
+    transition-delay:0.1s;
+    left: 80%;
+}
+
